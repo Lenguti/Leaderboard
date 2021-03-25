@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     region               = "us-east-1"
     bucket               = "lenguti-tfstate"
-    workspace_key_prefix = "lenguti-practice"
+    workspace_key_prefix = "lenguti-leaderboard"
     key                  = "terraform.tfstate"
     encrypt              = true
     dynamodb_table       = "lenguti-terraform-state-lock"
