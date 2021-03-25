@@ -1,4 +1,4 @@
 FROM        scratch
 WORKDIR     /go
-COPY        bin/service .
+COPY        src/service .
 ENTRYPOINT  ["/go/service"]
